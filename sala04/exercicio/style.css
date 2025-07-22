@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #00ffc8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+button {
+    color: rgb(255, 15, 15);
+    background-color: transparent;
+    border: none;
+    border: 3px solid #33ff00;
+    padding: 10px 30px;
+    border-radius: 999px;
+    transition: 200ms all linear;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 3px solid hsl(118, 100%, 50%);
+    background-color: #a401a7;
+    box-shadow: rgb(180, 2, 196) -5px 5px, rgba(255, 0, 115, 0.749) -10px 10px, rgba(255, 214, 81, 0.694) -15px 15px, rgba(230, 255, 44, 0.553) -20px 20px, rgba(220, 255, 93, 0.521) -25px 25px;
+}
